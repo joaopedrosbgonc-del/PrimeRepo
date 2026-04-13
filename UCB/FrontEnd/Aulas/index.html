@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Cadastro de Estudantes</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <h1>Novo Cadastro: </h1>
+    <form>
+        <div class="form">
+           <div class="nome">
+                <label for="nome" class="nomeR"><b>Nome Completo: </b></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="campoL">
+                <label for="Nascimento"><b>Nascimento: </b></label>
+                <input type="date" name="Nascimento" id="Nascimento">    
+
+                <label for="cpf"><b>CPF: </b></label>
+                <input type="text" max="99999999999" min="0" placeholder="123.456.789-08" id="cpf">
+            </div>
+            <div class="teml">
+                <label for="telefone"><b>Telefone: </b></label>
+                    <input type="tel" name="telefone" class="cent" placeholder="(61)912345-6789" class="pqn" id="telefone">
+
+                    <label for="email"><b>Email: </b></label>
+                    <input type="email" name="email" class="cent" placeholder="fulanoDeTal@domínio.com" id="email">
+            </div>
+            <h2 class="end">Endereço: </h2>
+            <div>
+                <div class="macro">
+                    <label for="estado"><b>Estado: </b></label>
+                    <select name="est">
+                        <option value="" disabled selected>Selecione o Estado</option>
+                            <option value="AC">Acre (AC)</option>
+                            <option value="AL">Alagoas (AL)</option>
+                            <option value="AP">Amapá (AP)</option>
+                            <option value="AM">Amazonas (AM)</option>
+                            <option value="BA">Bahia (BA)</option>
+                            <option value="CE">Ceará (CE)</option>
+                            <option value="DF">Distrito Federal (DF)</option>
+                            <option value="ES">Espírito Santo (ES)</option>
+                            <option value="GO">Goiás (GO)</option>
+                            <option value="MA">Maranhão (MA)</option>
+                            <option value="MT">Mato Grosso (MT)</option>
+                            <option value="MS">Mato Grosso do Sul (MS)</option>
+                            <option value="MG">Minas Gerais (MG)</option>
+                            <option value="PA">Pará (PA)</option>
+                            <option value="PB">Paraíba (PB)</option>
+                            <option value="PR">Paraná (PR)</option>
+                            <option value="PE">Pernambuco (PE)</option>
+                            <option value="PI">Piauí (PI)</option>
+                            <option value="RJ">Rio de Janeiro (RJ)</option>
+                            <option value="RN">Rio Grande do Norte (RN)</option>
+                            <option value="RS">Rio Grande do Sul (RS)</option>
+                            <option value="RO">Rondônia (RO)</option>
+                            <option value="RR">Roraima (RR)</option>
+                            <option value="SC">Santa Catarina (SC)</option>
+                            <option value="SP">São Paulo (SP)</option>
+                            <option value="SE">Sergipe (SE)</option>
+                            <option value="TO">Tocantins (TO)</option>
+                    </select>
+
+                    <label for="cidade"><b>Cidade: </b></label>
+                    <input type="text" name="cidade" id="cidade">
+                </div>
+                <div class="micro">
+                    <label for="bairro"><b>Bairro: </b></label>
+                    <input type="text" name="bairro" id="bairro">
+
+                    <label for="rua"><b>Rua: </b></label>
+                    <input type="text" name="rua" id="rua">
+
+                    <label for="casa"><b>Casa: </b></label>
+                    <input type="number" name="casa" id="casa">
+                </div>
+                <div class="infA">
+                    <label for="informações adicionais"><b>Outras informações: </b></label>
+                    <input type="text" name="informações adicionais" id="informações adicionais">
+                </div>
+            </div>
+            <h2>Formação: </h2>
+            <div>
+                <label for="curso"><b>Curso: </b></label>
+                <div class="curso">
+                    <input type="radio" name="curso" id="engS" value="engS">
+                    <label for="engS">Engenharia de Software (Eng)</label>
+                </div>
+                <div class="curso">      
+                    <input type="radio" name="curso" id="Cc" value="Cc">
+                    <label for="Cc">Ciência da Computação (CC)</label>
+                </div>
+                <div class="curso">      
+                    <input type="radio" name="curso" id="ads" value="ads">
+                    <label for="ads">Análise de Desenvolvimento de Sistemas (ADS)</label>
+                </div>
+            </div>
+            <div class="Areas">
+                
+            </div>
+        </div>
+        </form>
+</body>
+</html>
