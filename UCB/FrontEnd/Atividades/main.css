@@ -97,6 +97,7 @@ select{
     flex: 0;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 .curso label {
     background-color: rgb(206, 206, 206);
@@ -104,6 +105,7 @@ select{
     width: auto;
     margin: 5px;
     padding: 5px;
+    cursor: pointer;
 }
 h2 {
     text-decoration: underline;
@@ -111,4 +113,36 @@ h2 {
     background-color: antiquewhite;
     border-radius: 8px;
     margin-bottom: 10px;
+}
+.areas{
+    background-color: rgb(206, 206, 206);
+    border-radius: 25px;
+    align-items: center;
+    width: 50%;
+}
+.item{
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    margin: 8px;
+    padding: 5px;
+    gap: 10px;
+}
+.item input{
+    flex: 0.5;
+    cursor: pointer;
+}
+.MAreas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    display: flex;
+    padding: 10%;
+}
+.foto input{
+    display: flex;
+    width: 50%;
+    height: 50%;
 }
